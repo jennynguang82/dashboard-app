@@ -44,3 +44,10 @@ test('rejects an invalid metric with its CSV row number', () => {
     /row 2.*uptime/i,
   )
 })
+
+test('rejects a CSV that contains no metric rows', () => {
+  assert.throws(
+    () => parseMetricsCsv('recorded_at,uptime,response_time,error_rate,transaction_volume,availability,incidents\n\n', 'org-1'),
+    /no metric rows/i,
+  )
+})
