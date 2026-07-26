@@ -4,7 +4,7 @@
 
 Open the project SQL Editor and run the full SQL from `supabase/migrations/202607250001_phase_1_dashboard.sql`.
 
-Apply every later migration in `supabase/migrations/` in timestamp order before testing newer features. The Customer Admin CSV import requires `20260726063246_allow_customer_admin_metric_imports.sql`.
+Apply every later migration in `supabase/migrations/` in timestamp order before testing newer features. The Customer Admin CSV import requires `20260726063407_allow_customer_admin_metric_imports.sql`.
 
 ## Configure authentication
 
