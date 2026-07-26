@@ -1,0 +1,26 @@
+{
+  "name": "dashboardapp",
+  "version": "1.0.0",
+  "description": "Customer performance dashboard backed by Supabase",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test tests/dashboard.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "2.110.8",
+    "@vitejs/plugin-react": "6.0.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "vite": "8.1.5"
+  }
+}
